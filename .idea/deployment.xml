@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="https://github.com/rayka95/DomainParkingSys/" uploadOnCheckin="c39079da-7306-49ae-9428-7fe04fede44d">
+    <serverData>
+      <paths name="https://github.com/rayka95/DomainParkingSys/">
+        <serverdata>
+          <mappings>
+            <mapping deploy="C:\Users\Rayka95\PhpstormProjects\MostVisitedParking" local="" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="https://github.com/rayka95/DomainParkingSys/" />
+  </component>
+</project>
