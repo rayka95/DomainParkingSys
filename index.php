@@ -1,5 +1,6 @@
 <?php
-$domain = $_SERVER['SERVER_NAME'];
+$domain = str_replace("www.","",$_SERVER['SERVER_NAME']);
+
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -22,7 +23,7 @@ $domain = $_SERVER['SERVER_NAME'];
 	</div>
 	<div id="middle">
 		<p>Contact Me <br>
-<a href="&#x6d;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#105;&#64;&#109;&#x68;&#97;&#115;&#97;&#x6e;&#105;&#x2e;&#x69;&#x72;?Subject=Domain Trading <?php echo($domain);?>"> Send Request To Start ! </a>
+<a href="&#x6d;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#105;&#64;&#109;&#x68;&#97;&#115;&#97;&#x6e;&#105;&#x2e;&#x69;&#x72;<?php echo("?subject=Domain%20Trading%20".$domain);?>"> Send Request To Start ! </a>
 
 </span></p>
 	</div>
@@ -59,19 +60,6 @@ try {
                 }
 }}
 catch (exception $ex1){file_put_contents("errors.txt",$ex1."\r\n",FILE_APPEND);}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ?>
